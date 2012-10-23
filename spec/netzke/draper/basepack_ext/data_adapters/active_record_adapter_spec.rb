@@ -28,7 +28,7 @@ describe Netzke::Basepack::DataAdapters::ActiveRecordAdapter do
       before(:each) do
         @undecorated_component.data_adapter.stub_chain(:get_relation, :all).and_return([Book.new])
       end
-      
+
       it "doesn't decorate collection" do
         @undecorated_component.data_adapter.get_records({}).should_not be_a(Draper::DecoratedEnumerableProxy)
       end
