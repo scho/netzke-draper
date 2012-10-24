@@ -22,6 +22,7 @@ Given the following grid panel:
 class BooksGridPanel < Netzke::Basepack::GridPanel
 
   def configure(c)
+    super
     c.model = 'Book'
     c.decorator = 'BookDecorator'
   end
