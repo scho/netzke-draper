@@ -1,4 +1,4 @@
-# netzke-draper [<img src="https://secure.travis-ci.org/scho/netzke-draper.png" />](http://travis-ci.org/scho/netzke-draper)
+# netzke-draper [<img src="https://secure.travis-ci.org/scho/netzke-draper.png" />](http://travis-ci.org/scho/netzke-draper) [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/scho/netzke-draper)
 
 netzke-draper is a simple extension for all [netzke](http://netzke.org/) components, that use the [data accessor](https://github.com/nomadcoder/netzke-basepack/blob/master/lib/netzke/basepack/data_accessor.rb) module (e.g. GridPanel). It automatically decorates your record(s) with a given decorator or one that matches the default naming convention.
 
