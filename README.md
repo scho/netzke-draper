@@ -2,6 +2,10 @@
 
 netzke-draper is a simple extension for all [netzke](http://netzke.org/) components, that use the [data accessor](https://github.com/nomadcoder/netzke-basepack/blob/master/lib/netzke/basepack/data_accessor.rb) module (e.g. GridPanel). It automatically decorates your record(s) with a given decorator or one that matches the default naming convention.
 
+## Note
+
+This project is still WIP, and therefore should not be used in production!
+
 ## Installation
 
 In Rails 3 add this to your gem file and run the ```bundle``` command.
